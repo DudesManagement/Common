@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EndToEnd.Tests", "EndToEnd.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Src\Tools\Tools.csproj", "{6AAC945B-F5A2-47C5-BC4D-43345C255804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Unit.Test", "Tests\Unit.Tests\Configuration.Unit.Tests\Tools.Unit.Test\Tools.Unit.Test.csproj", "{0F4AF021-3CDF-4475-9E32-93CA58F32075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6AAC945B-F5A2-47C5-BC4D-43345C255804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AAC945B-F5A2-47C5-BC4D-43345C255804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AAC945B-F5A2-47C5-BC4D-43345C255804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4AF021-3CDF-4475-9E32-93CA58F32075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4AF021-3CDF-4475-9E32-93CA58F32075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4AF021-3CDF-4475-9E32-93CA58F32075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4AF021-3CDF-4475-9E32-93CA58F32075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{42D37BFE-7D6F-40AF-AF95-59ADF256CD0B} = {D9465095-023B-4247-AEAF-F46A310C5E45}
 		{B90B601B-2CF5-4C0E-974B-B0CD5C26A9B8} = {D9465095-023B-4247-AEAF-F46A310C5E45}
 		{6AAC945B-F5A2-47C5-BC4D-43345C255804} = {CCE10E15-EB35-40B6-8F59-59A337DB81F1}
+		{0F4AF021-3CDF-4475-9E32-93CA58F32075} = {29C52B85-EA88-4603-B6FD-A6804270CB82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {91507ED8-5D57-4F45-8075-B87A616F84EB}
