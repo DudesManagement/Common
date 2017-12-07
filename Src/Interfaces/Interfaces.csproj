@@ -2,11 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Fodiz.Common.Interfaces</AssemblyName>
+    <RootNamespace>Fodiz.Common.Interfaces</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
-    <PackageReference Include="TemplateService" Version="1.0.126" />
-  </ItemGroup>
 
 </Project>
