@@ -1,10 +1,10 @@
-﻿using Dudes.Logger;
-using Fodiz.Common.Tools.BaseConfigurationsReader.Exceptions;
+﻿using Horus.Logger;
+using Horus.Common.Tools.BaseConfigurationsReader.Exceptions;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
 
-namespace Fodiz.Common.Tools.BaseConfigurationsReader
+namespace Horus.Common.Tools.BaseConfigurationsReader
 {
     public class JsonBaseConfigurationsReader
     {

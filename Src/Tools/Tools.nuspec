@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-    <id>Fodiz.Common.Tools</id>
+    <id>Horus.Common.Tools</id>
       <version>1.0.0</version>
     <authors>Fodiz "dudes.management@gmail.com"</authors>
 	<projectUrl>https://github.com/DudesManagement/dudes.Main</projectUrl>
@@ -12,8 +12,8 @@
 </dependencies>
     </metadata>
   <files>
-    <file src="bin/Release/netcoreapp2.0/Fodiz.Common.Tools.dll" target="lib/netcoreapp2.0" />
-    <file src="bin/Release/netcoreapp2.0/Fodiz.Common.Tools.pdb" target="lib/netcoreapp2.0" />
+    <file src="bin/Release/netcoreapp2.0/Horus.Common.Tools.dll" target="lib/netcoreapp2.0" />
+    <file src="bin/Release/netcoreapp2.0/Horus.Common.Tools.pdb" target="lib/netcoreapp2.0" />
     <file src="**.cs" target="src" exclude="**/bin/**;**/obj/**"/>
     <file src="**.json" target="src" exclude="**/bin/**;**/obj/**"/>
     <file src="**.config" target="src" exclude="**/bin/**;**/obj/**"/>

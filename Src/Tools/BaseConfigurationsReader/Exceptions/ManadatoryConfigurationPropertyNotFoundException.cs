@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Fodiz.Common.Tools.BaseConfigurationsReader.Exceptions
+namespace Horus.Common.Tools.BaseConfigurationsReader.Exceptions
 {
     class ManadatoryConfigurationPropertyNotFoundException : Exception
     {
