@@ -3,6 +3,7 @@ using Horus.Common.Tools.BaseConfigurationsReader.Exceptions;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
+using Horus.Common.Tools.BaseConfigurationsReader.Constants;
 
 namespace Horus.Common.Tools.BaseConfigurationsReader
 {
@@ -15,7 +16,7 @@ namespace Horus.Common.Tools.BaseConfigurationsReader
         public JsonBaseConfigurationsReader(ILogger logger)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-
+            configurationFileName = ConfigurationConstants.DefaultConfigurationFileName;
         }
 
         protected string GetOptionalConfiguration(string key)
